@@ -16,7 +16,7 @@ button {
   display: inline-block;
   margin: 10px;
   border-radius: 6px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .add {
@@ -40,4 +40,21 @@ h1 {
   font-weight: 300;
   font-style: italic;
   font-size: 26px;
+}
+
+.win-block {
+  width: 420px;
+  height: 200px;
+  background-color: brown;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+}
+
+.win-text {
+  font-size: 80px;
+  font-weight: 100;
+  color: red;
+
 }

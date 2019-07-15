@@ -6,7 +6,8 @@ class App extends React.Component {
     super();
 
     this.state = {
-      count: Math.floor(Math.random() * 6073),
+      // count: Math.floor(Math.random() * 6073)
+      count: 1
     };
 
     this.handleAdd = this.handleAdd.bind(this);
@@ -51,6 +52,7 @@ class App extends React.Component {
         <button className="half" onClick={this.handleHalf}>
           Half
         </button>
+          <h3 className='win-text'>{this.state.count === 1 ? "WIN !" : ""}</h3>
         <h3 className="text">Speculate with the given number to have 1.</h3>
       </div>
     );
