@@ -16,6 +16,7 @@ button {
   display: inline-block;
   margin: 10px;
   border-radius: 6px;
+  margin-bottom: 80px;
 }
 
 .add {
@@ -33,4 +34,10 @@ button {
 h1 {
   font-weight: 100;
   font-size: 140px;
+}
+
+.text {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 26px;
 }

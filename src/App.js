@@ -4,10 +4,11 @@ import "./style.css";
 class App extends React.Component {
   constructor() {
     super();
+
     this.state = {
-      count: 0
+      count: Math.floor(Math.random() * 6073),
     };
-    
+
     this.handleAdd = this.handleAdd.bind(this);
     this.handleDouble = this.handleDouble.bind(this);
     this.handleHalf = this.handleHalf.bind(this);
@@ -50,6 +51,7 @@ class App extends React.Component {
         <button className="half" onClick={this.handleHalf}>
           Half
         </button>
+        <h3 className="text">Speculate with the given number to have 1.</h3>
       </div>
     );
   }
