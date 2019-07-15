@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/counter-app-react/static/css/main.fe7ae228.chunk.css",
+    "main.js": "/counter-app-react/static/js/main.9b69ba72.chunk.js",
+    "main.js.map": "/counter-app-react/static/js/main.9b69ba72.chunk.js.map",
+    "runtime~main.js": "/counter-app-react/static/js/runtime~main.c1a698d6.js",
+    "runtime~main.js.map": "/counter-app-react/static/js/runtime~main.c1a698d6.js.map",
+    "static/js/2.4e81ba5b.chunk.js": "/counter-app-react/static/js/2.4e81ba5b.chunk.js",
+    "static/js/2.4e81ba5b.chunk.js.map": "/counter-app-react/static/js/2.4e81ba5b.chunk.js.map",
+    "index.html": "/counter-app-react/index.html",
+    "precache-manifest.731614faac6781aa6e96a33dd9e7e5f0.js": "/counter-app-react/precache-manifest.731614faac6781aa6e96a33dd9e7e5f0.js",
+    "service-worker.js": "/counter-app-react/service-worker.js",
+    "static/css/main.fe7ae228.chunk.css.map": "/counter-app-react/static/css/main.fe7ae228.chunk.css.map"
+  }
+}
