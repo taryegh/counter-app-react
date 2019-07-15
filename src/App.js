@@ -7,7 +7,10 @@ class App extends React.Component {
     this.state = {
       count: 0
     };
+    
     this.handleAdd = this.handleAdd.bind(this);
+    this.handleDouble = this.handleDouble.bind(this);
+    this.handleHalf = this.handleHalf.bind(this);
   }
 
   handleAdd() {
@@ -18,21 +21,21 @@ class App extends React.Component {
     });
   }
 
-  handleDouble = () => {
+  handleDouble() {
     this.setState(prevState => {
       return {
         count: prevState.count * 2
       };
     });
-  };
+  }
 
-  handleHalf = () => {
+  handleHalf() {
     this.setState(prevState => {
       return {
         count: prevState.count / 2
       };
     });
-  };
+  }
 
   render() {
     return (
